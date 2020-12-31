@@ -1,0 +1,59 @@
+  .pageContainer {
+    color: black;
+    font-size: 1rem;
+    text-align: start;
+  }
+
+  .listColumn {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+
+    font-size: 1rem;
+    text-align: start;
+    overflow: hidden;
+    height: 100%;
+
+  }
+
+  .expandIcon {
+    display: inline;
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color:purple;
+  }
+
+  .question {
+    display: inline;
+  }
+
+  .showAnswer {
+    color:darkblue;
+    margin-bottom: 1rem;
+  }
+
+  .hideAnswer {
+    display: none;
+  }
+
+  .buttonCollapseExpand {
+    text-align: left;
+  }
+
+  @media screen and (max-width: 992px) {
+    .privacyTerms {
+      padding: 0 1rem;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .footerRow {
+      flex-direction: column;
+      justify-content: space-between;
+      align-content: space-between;
+  
+      font-size: 3rem;
+    }
+  }

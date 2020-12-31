@@ -1,0 +1,33 @@
+.underlineHover:hover {
+  text-decoration: underline;
+}
+
+.font {
+  font-family: 'Comfortaa';
+  color: black;
+}
+
+.body {
+  margin: 3rem;
+}
+
+.h1 {
+  font-size: 2rem;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
+
+.h2 {
+  margin-top: 0.75rem;
+  font-size: 1.5rem;
+}
+
+.p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.link {
+  color: blue;
+  text-decoration: underline;
+}

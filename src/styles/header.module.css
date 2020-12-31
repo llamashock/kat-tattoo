@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Lato:wght@100&display=swap');
+
+  .headerRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    min-height: 5rem;
+    padding: 0 1rem;
+    background-color: rgb(247, 215, 234);
+    font-size: 2rem;
+  }
+
+  .mainImage {
+    height: 5rem;
+    width: auto;
+    margin: 1rem;
+  }
+
+  .closeMenu {
+    text-align: right;
+    width: 100%;
+    padding: 5% ;
+  }
+
+  .highlightCurrentPage {
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+  .mainTitle {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .navList {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1rem;
+    width: 50%;
+  }
+
+  .navListMobile {
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1rem;
+    min-width: 40%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgb(213, 239, 247);
+  }
+
+  .navListMobileOverlay {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(124, 124, 124, 0.5);
+  }
+
+  .navItem {
+    display: block;
+    padding: 0 1rem;
+  }
+
+  .hamburgerIcon {
+    display: none;
+  }
+
+  @media screen and (max-width: 992px) {
+    .hamburgerIcon {
+      display: block;
+    }
+    .navListMobile {
+      display: flex;
+    }
+    .navList {
+      display: none;
+    }
+    .mainTitle {
+      flex: 0 1 auto;
+      font-size: 1.5rem;
+    }
+    .navItem {
+      margin-bottom: 1.5rem;
+    }
+  }
+  

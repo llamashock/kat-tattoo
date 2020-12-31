@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Lato:wght@100&display=swap');
+
+  .footerRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+
+    width: 100%;
+    background-color: rgb(235, 218, 227);
+    min-height: 5rem;
+    padding: 1rem;
+    
+    font-size: 3rem;
+  }
+
+  .privacyTermsRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .privacyTerms {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0 3rem;
+    margin: auto 0;
+  }
+
+  .license {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0 3rem;
+    margin: auto 0;
+    align-self: center;
+  }
+
+  @media screen and (max-width: 992px) {
+    .privacyTerms {
+      padding: 0 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .footerRow {
+      flex-direction: column;
+      justify-content: space-between;
+      align-content: space-between;
+  
+      font-size: 3rem;
+    }
+    .privacyTermsRow {
+      padding-top: 1rem;
+    }
+  }
