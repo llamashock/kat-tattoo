@@ -4,6 +4,16 @@ import Head from 'next/head'
 const Meta = () => {
   return (
     <Head>
+      <meta property="og:title" content="Kat England Tattoo" />
+      <meta property="og:description" content="A gallery of work by Kat England." />
+      <meta property="og:image" content="https://tattsbykat.com/main.jpg" />
+      <meta property="og:url" content="https://tattsbykat.com/" />
+      <meta name="twitter:card" content="https://tattsbykat.com/main.jpg" />
+      <meta property="og:site_name" content="Kat England Tattoo, Inc." />
+      <meta name="twitter:image:alt" content="A gallery of work by Kat England." />
+     
+      <title>Kat England Tattoo</title>
+
       <link
         rel="apple-touch-icon"
         sizes="180x180"
