@@ -7,7 +7,7 @@ const Footer = () => {
   return (
         <footer className={footerStyles.footerRow}>
           <h3 className={footerStyles.license}>
-          ® License info here © 
+          Kat England Tattoo © 2021 
           </h3>
           <div className={footerStyles.privacyTermsRow}>
             <Link as={`/privacyTerms`} href="/privacyTerms">

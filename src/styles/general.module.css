@@ -20,6 +20,8 @@
 .h2 {
   margin-top: 0.75rem;
   font-size: 1.5rem;
+  text-decoration: underline;
+  color: rgba(62, 62, 62, 1);
 }
 
 .p {
