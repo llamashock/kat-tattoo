@@ -27,6 +27,14 @@ const contact = () => {
         <h2 className={`${styles.h2}`}>Hours / Scheduling</h2>
         <p className={`${styles.p}`}>I am typically in the shop Tuesdays through Saturdays but this varies due to my appointment schedule. If you want to come in for a consultation I am happy to meet with you, just give me a heads up and we can work around my appointments. I do not take walk ins at this time as I typically schedule in advance.</p>
         <p className={`${styles.p}`}>We typically schedule a few months in advance due to demand.</p>
+        
+        <h2 className={`${styles.h2}`}>To request an appointment</h2>
+        <p className={`${styles.p}`}>Please send me an email (<a href="mailto:tattsbykat@gmail.com?subject=New%20Appointment" className={`${styles.link}`}>tattsbykat@gmail.com</a>) with the following content:</p>
+        <p className={`${styles.p}`}>• A description of the tattoo that you would like</p>
+        <p className={`${styles.p}`}>• A few reference images</p>
+        <p className={`${styles.p}`}>• The size that you want the tattoo to be</p>
+        <p className={`${styles.p}`}>• Where you want to get the tattoo</p>
+        <p className={`${styles.p}`}>I typically respond to messages every 2-3 of days due to the amount of messages I receive. During busier times (usually around spring and summer) it may be a little bit longer.</p>
     </Layout>
     )
 }

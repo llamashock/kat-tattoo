@@ -13,6 +13,19 @@
     font-size: 2rem;
   }
 
+  .subHeaderRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(255, 137, 141);
+    font-size: 1rem;
+  }
+
   .mainImage {
     height: 5rem;
     width: auto;
