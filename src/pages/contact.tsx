@@ -25,7 +25,7 @@ const contact = () => {
         </p>
         
         <h2 className={`${styles.h2}`}>Hours / Scheduling</h2>
-        <p className={`${styles.p}`}>I am typically in the shop Tuesdays through Saturdays but this varies due to my appointment schedule. If you want to come in for a consultation I am happy to meet with you, just give me a heads up and we can work around my appointments. I do not take walk ins at this time as I typically schedule in advance.</p>
+        <p className={`${styles.p}`}>I am typically in the shop Wednesdays through Saturdays but this varies due to my appointment schedule. If you want to come in for a consultation I am happy to meet with you, just give me a heads up and we can work around my appointments. I do not take walk ins at this time as I typically schedule in advance.</p>
         <p className={`${styles.p}`}>We typically schedule a few months in advance due to demand.</p>
         
         <h2 className={`${styles.h2}`}>To request an appointment</h2>
