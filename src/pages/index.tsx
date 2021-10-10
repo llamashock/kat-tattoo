@@ -1,5 +1,6 @@
 import Container from '../components/container'
 import Layout from '../components/layout'
+import MailToLink from '../components/mailToLink'
 import Head from 'next/head'
 import homeStyles from '../styles/index.module.css'
 import styles from '../styles/general.module.css'
@@ -18,7 +19,11 @@ const Index = () => {
             <a href="https://www.facebook.com/tattsbykat/" className={`${styles.link}`}>Facebook</a>
             {"."}
           </p>
-          <p className={`${styles.p}`}>To schedule an appointment, please email <a href="mailto:tattsbykat@gmail.com?subject=New%20Appointment" className={`${styles.link}`}>tattsbykat@gmail.com</a> with at least one reference picture, a description of the tattoo, size and placement of the tattoo.</p>
+          <p className={`${styles.p}`}>
+            {"To schedule an appointment, please email "}
+            <MailToLink /> 
+            {" with at least one reference picture, a description of the tattoo, size and placement of the tattoo."}
+           </p>
         </Container>
       </Layout>
     </>

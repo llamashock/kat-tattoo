@@ -1,13 +1,14 @@
 import Layout from '../components/layout'
 import styles from '../styles/general.module.css'
+import MailToLink from '../components/mailToLink'
 
 const contact = () => {
     return (
     <Layout>
         <h1 className={`${styles.h1}`}>Contact Us</h1>
         
-        <h2 className={`${styles.h2}`}>Email</h2>
-        <p className={`${styles.p}`}>tattsbykat@gmail.com</p>
+        <h2 className={`${styles.h2}`}>Email</h2> 
+        <MailToLink /> 
 
         <h2 className={`${styles.h2}`}>On Social Media</h2>
         <a href="https://www.instagram.com/tattsbykat/" className={`${styles.link}`}>Instagram</a>
@@ -29,7 +30,7 @@ const contact = () => {
         <p className={`${styles.p}`}>We typically schedule a few months in advance due to demand.</p>
         
         <h2 className={`${styles.h2}`}>To request an appointment</h2>
-        <p className={`${styles.p}`}>Please send me an email (<a href="mailto:tattsbykat@gmail.com?subject=New%20Appointment" className={`${styles.link}`}>tattsbykat@gmail.com</a>) with the following content:</p>
+        <p className={`${styles.p}`}>Please send me an email (<MailToLink />) with the following content:</p>
         <p className={`${styles.p}`}>• A description of the tattoo that you would like</p>
         <p className={`${styles.p}`}>• A few reference images</p>
         <p className={`${styles.p}`}>• The size that you want the tattoo to be</p>
