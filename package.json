@@ -5,7 +5,8 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "lint": "next lint",
+    "lint": "eslint . --ext='js,ts,tsx'",
+    "stylelint": "stylelint ./src/**/*.css",
     "start": "next start"
   },
   "engines": {
