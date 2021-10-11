@@ -13,9 +13,9 @@ const collapsingQuestionResponse = ({ question, response }: FAQ) => {
   return (
     <>
       <li key={question}>
-        <button className={`${faqStyles.buttonCollapseExpand}`} onClick={() => setShowAnswer(!showAnswer)} type="button">
-          <p className={`${faqStyles.expandIcon}`}>{showAnswer ? '-' : '+'}</p>
-          <p className={`${faqStyles.question}`}>{question}</p>
+        <button className={faqStyles.buttonCollapseExpand} onClick={() => setShowAnswer(!showAnswer)} type="button">
+          <p className={faqStyles.expandIcon}>{showAnswer ? '-' : '+'}</p>
+          <p className={faqStyles.question}>{question}</p>
         </button>
         <p className={`${showAnswer ? faqStyles.showAnswer : faqStyles.hideAnswer}`}>{response}</p>
       </li>

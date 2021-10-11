@@ -46,8 +46,8 @@ const gallery = () => {
   ));
   return (
     <Layout>
-      <h1 className={`${styles.h1}`}>Gallery</h1>
-      <h2 className={`${styles.h2}`}>Previous tattoos and artwork</h2>
+      <h1 className={styles.h1}>Gallery</h1>
+      <h2 className={styles.h2}>Previous tattoos and artwork</h2>
       <ul className={galleryStyles.listImages}>{images}</ul>
     </Layout>
   );

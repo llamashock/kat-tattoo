@@ -32,9 +32,9 @@ const faq = () => {
 
   return (
     <Layout>
-      <div className={`${faqStyles.pageContainer}`}>
-        <h1 className={`${styles.h1}`}>FAQ</h1>
-        <ul className={`${faqStyles.listColumn}`}>
+      <div className={faqStyles.pageContainer}>
+        <h1 className={styles.h1}>FAQ</h1>
+        <ul className={faqStyles.listColumn}>
           {faqList}
         </ul>
       </div>
