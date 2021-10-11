@@ -1,26 +1,24 @@
-import Footer from './footer'
-import Meta from './meta'
-import Header from './header'
-import SubHeader from './subheader'
-import styles from '../styles/general.module.css'
+import Footer from 'components/footer';
+import Header from 'components/header';
+import Meta from 'components/meta';
+import SubHeader from 'components/subheader';
+import React from 'react';
+import styles from 'styles/general.module.css';
 
 type Props = {
-  preview?: boolean
   children: React.ReactNode
 }
 
-const Layout = ({ preview, children }: Props) => {
-  return (
-    <div className={styles.font}>
-      <Meta />
-      <Header />
-      <SubHeader />
-      <div className="min-h-screen">
-        <main className={styles.body}>{children}</main>
-      </div>
-      <Footer />
+const Layout = ({ children }: Props) => (
+  <div className={styles.font}>
+    <Meta />
+    <Header />
+    <SubHeader />
+    <div className="min-h-screen">
+      <main className={styles.body}>{children}</main>
     </div>
-  )
-}
+    <Footer />
+  </div>
+);
 
-export default Layout
+export default Layout;

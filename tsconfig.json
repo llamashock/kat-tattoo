@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "es6",
+    "baseUrl": "./src",
     "lib": [
       "dom",
       "dom.iterable",
@@ -19,9 +20,10 @@
     "jsx": "preserve"
   },
   "include": [
+    "src",
     "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
+    "./**/*.ts",
+    "./**/*.tsx"
   ],
   "exclude": [
     "node_modules"

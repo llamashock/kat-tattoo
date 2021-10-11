@@ -1,0 +1,32 @@
+{
+    "cSpell.enableFiletypes": [
+        "css"
+    ],
+    "cSpell.words": [
+        "Aveeno",
+        "Eucerin",
+        "Lubriderm",
+        "stylelint",
+        "tattsbykat"
+    ],
+    "cSpell.ignorePaths": [
+        "package-lock.json",
+        "node_modules",
+        "vscode-extension",
+        ".git/objects",
+        ".vscode",
+        ".vscode-insiders"
+    ],
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.fixAll.eslint": true,
+        "source.organizeImports": true
+    },
+    "typescript.preferences.quoteStyle": "single"
+}
