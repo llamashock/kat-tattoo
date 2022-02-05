@@ -8,7 +8,8 @@ const contact = () => (
     <h1 className={styles.h1}>Contact Us</h1>
 
     <h2 className={styles.h2}>Email</h2>
-    <MailToLink />
+    {/* Cannot use <MailToLink /> here for some reason, it renders as a <p> element only on prod */}
+    <a href="mailto:tattsbykat@gmail.com?body=General%20description%20of%20the%20tattoo:%20%0D%0A%0D%0A%20Reference%20Images:%20%0D%0A%0D%0A%20Size%20of%20the%20tattoo:%20%0D%0A%0D%0A%20Location%20of%20tattoo:%20" className={styles.link}>tattsbykat@gmail.com</a>
 
     <h2 className={styles.h2}>On Social Media</h2>
     <a href="https://www.instagram.com/tattsbykat/" className={styles.link}>Instagram</a>
