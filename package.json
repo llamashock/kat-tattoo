@@ -10,7 +10,7 @@
     "start": "next start"
   },
   "engines": {
-    "node": "16.x"
+    "node": "14.x"
   },
   "dependencies": {
     "classnames": "2.2.6",
