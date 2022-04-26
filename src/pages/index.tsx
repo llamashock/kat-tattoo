@@ -16,8 +16,6 @@ const Index = () => (
       <p className={styles.p}>
         {'To see more examples of Kat’s work, you can find her at @tattsbykat on '}
         <a href="https://www.instagram.com/tattsbykat/" className={styles.link}>Instagram</a>
-        {' or '}
-        <a href="https://www.facebook.com/tattsbykat/" className={styles.link}>Facebook</a>
         .
       </p>
       <p className={styles.p}>
