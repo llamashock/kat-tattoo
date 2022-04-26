@@ -8,7 +8,10 @@ import homeStyles from 'styles/index.module.css';
 const Index = () => (
   <Layout>
     <Container>
-      <img src="/main.jpg" alt="Example sketch and tattoo" className={homeStyles.mainImage} />
+      <div className={homeStyles.mainImageContainer}>
+        <img src="/dogDiamonds.jpg" alt="Example tattoo" className={homeStyles.mainImage} />
+        <img src="/birdLantern.jpg" alt="Example sketch" className={homeStyles.mainImage} />
+      </div>
       <p className={styles.p}>Kat is best known for black and grey work, specializing in organic designs like florals, and portraits of animals and people.</p>
       <p className={styles.p}>
         {'To see more examples of Kat’s work, you can find her at @tattsbykat on '}

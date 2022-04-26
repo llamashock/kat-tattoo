@@ -7,10 +7,7 @@ import styles from 'styles/general.module.css';
 const gallery = () => {
   const imageList = [
     { src: '/chimp.jpg', url: 'https://www.instagram.com/p/CK_oWZPMEJU/?igshid=12a67gg7yla34' },
-    { src: '/fish.jpg', url: 'https://www.instagram.com/p/CLozM6igHsp/?igshid=164og7p880prz' },
     { src: '/tiger2.jpg', url: 'https://www.instagram.com/p/CLwdjIDsYBf/?igshid=1e3wrd6ekjasv' },
-    { src: '/skullSnake.jpg', url: 'https://www.instagram.com/p/CHne37YA3bR/?igshid=n1t4f7w41kqk' },
-    { src: '/mouseBerries.jpg', url: 'https://www.instagram.com/p/CGXZBvkgbsr/?igshid=13zs1s8w7ml9i' },
     { src: '/honeyBees.jpg', url: 'https://www.instagram.com/p/CGfUhuWgv3s/?igshid=1pob02v17gbka' },
     { src: '/lady.jpg', url: 'https://www.instagram.com/p/CMIAx-NgWRj/?igshid=1fwwyamen3o3u' },
     { src: '/flowers2.jpg', url: 'https://www.instagram.com/p/CBLWiLSA1RP/?igshid=lnxfjuueh5vn' },
