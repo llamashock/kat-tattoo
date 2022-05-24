@@ -1,5 +1,4 @@
 import Layout from 'components/layout';
-import Link from 'next/link';
 import React from 'react';
 import galleryStyles from 'styles/gallery.module.css';
 import styles from 'styles/general.module.css';
@@ -34,11 +33,12 @@ const gallery = () => {
 
   const images = imageList.map((image) => (
     <li key={image.src} className={galleryStyles.imageItem}>
-      <Link as={image.url} href={image.url}>
+      <img src={image.src} alt="tattoo-example" className={galleryStyles.image} />
+      {/* <Link as={image.url} href={image.url}>
         <div>
           <img src={image.src} alt="tattoo-example" className={galleryStyles.image} />
         </div>
-      </Link>
+      </Link> */}
     </li>
   ));
   return (
