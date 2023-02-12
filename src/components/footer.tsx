@@ -6,7 +6,7 @@ import styles from 'styles/general.module.css';
 const Footer = () => (
   <footer className={footerStyles.footerRow}>
     <h3 className={footerStyles.license}>
-      Kat England Tattoo © 2021
+      Kat England Tattoo © 2023
     </h3>
     <div className={footerStyles.privacyTermsRow}>
       <Link as="/privacyTerms" href="/privacyTerms">
