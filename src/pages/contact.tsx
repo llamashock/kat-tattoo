@@ -17,10 +17,10 @@ const contact = () => (
     <h2 className={styles.h2}>Location</h2>
 
     <p className={styles.p}>
-      706 S. Illinois Ave. Suite D105
+      700 S. Illinois Ave. Suite A103
     </p>
     <p className={styles.p}>
-      Oak Ridge, Tennessee
+      Oak Ridge, Tennessee 37830
     </p>
     <p className={styles.p}>
       This is in Pine Ridge office park,
