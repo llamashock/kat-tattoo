@@ -23,10 +23,9 @@ const contact = () => (
       Oak Ridge, Tennessee 37830
     </p>
     {/* Can add a description here for more specific directions */}
-    {/* <p className={styles.p}>
-      This is in Pine Ridge office park,
-      the first building on the right when you pull into the parking lot.
-    </p> */}
+    <p className={styles.p}>
+      This is in Pine Ridge office park, turn right into the parking lot and continue down until you see building 700 on the end.
+    </p>
 
     <h2 className={styles.h2}>Hours / Scheduling</h2>
     <p className={styles.p}>I am typically in the shop Tuesdays through Saturdays but this varies due to my appointment schedule. I do not take walk ins at this time as I typically schedule in advance.</p>
