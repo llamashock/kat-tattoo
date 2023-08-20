@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider; next build",
     "dev": "next dev",
     "lint": "eslint . --ext='js,ts,tsx'",
     "stylelint": "stylelint ./src/**/*.css",
