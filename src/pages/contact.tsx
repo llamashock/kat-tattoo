@@ -53,7 +53,7 @@ const contact = () => {
       <p className={styles.p}>
         • The best way to ensure that I take on an inquiry is to give me a good idea of what
         you are looking for and let me run with the design.
-        This is where giving your artist trust comes in.
+        This is where trusting artist comes in.
         Occasionally some customers are overly particular
         about how they want the tattoo to come out (i.e. micromanage the design process),
         and this is not my preferred design process. Not all requests are accepted,
