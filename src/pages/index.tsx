@@ -1,6 +1,6 @@
 import Container from 'components/container';
 import Layout from 'components/layout';
-import MailToLink from 'components/mailToLink';
+import Link from 'next/link';
 import React from 'react';
 import styles from 'styles/general.module.css';
 import homeStyles from 'styles/index.module.css';
@@ -19,9 +19,13 @@ const Index = () => (
         .
       </p> */}
       <p className={styles.p}>
-        {'To schedule an appointment, please email '}
-        <MailToLink />
-        {' with at least one reference picture, a description of the tattoo, size and placement of the tattoo.'}
+        {'To schedule an appointment, please read our '}
+        <Link as="/contact" href="/contact">
+          <a className={`${styles.link} ${styles.underlineHover}`}>Policies and Contact Us</a>
+        </Link>
+        {' page. When creating an appointment, we will require'}
+        {' a description of the tattoo, the size and placement of the tattoo.'}
+        {' It is preferred to include at least one reference picture.'}
       </p>
     </Container>
   </Layout>

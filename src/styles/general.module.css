@@ -24,6 +24,13 @@
   color: rgba(62, 62, 62, 1);
 }
 
+.h3 {
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  text-decoration: underline;
+  color: rgba(62, 62, 62, 1);
+}
+
 .p {
   margin-bottom: 1rem;
   font-size: 1rem;
