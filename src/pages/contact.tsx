@@ -29,7 +29,7 @@ const contact = () => {
         but this varies due to my appointment schedule.
         I do not take walk ins at this time as I typically schedule in advance.
       </p>
-      <p className={styles.p}>We typically schedule a few months in advance due to demand.</p>
+      <p className={styles.p}>I typically schedule a few months in advance due to demand.</p>
       <p className={styles.p}>
         I typically respond to messages every 2-3 of days due to the amount of messages I receive.
         During busier times (usually around spring and summer) it may be a little bit longer.
@@ -53,7 +53,7 @@ const contact = () => {
       <p className={styles.p}>
         • The best way to ensure that I take on an inquiry is to give me a good idea of what
         you are looking for and let me run with the design.
-        This is where trusting artist comes in.
+        This is where trusting your artist comes in.
         Occasionally some customers are overly particular
         about how they want the tattoo to come out (i.e. micromanage the design process),
         and this is not my preferred design process. Not all requests are accepted,
@@ -161,7 +161,7 @@ const contact = () => {
           • A few reference images. I just use these as a starting point,
           to see the key elements that you like.
           I like to add my own flair to my tattoos and I will not copy
-          {' another artist\'s work. If you would like an exact replica of a'}
+          {' another artist\'s work. If you would like an exact replica of a '}
           tattoo or drawing, I am not the artist for you.
         </p>
         <p className={styles.p}>• The size that you want the tattoo to be.</p>
