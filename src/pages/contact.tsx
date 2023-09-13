@@ -1,4 +1,5 @@
 import Layout from 'components/layout';
+import Link from 'next/link';
 import React, { useState } from 'react';
 import faqStyles from 'styles/faq.module.css';
 import styles from 'styles/general.module.css';
@@ -48,6 +49,14 @@ const contact = () => {
         This means that if we have to communicate back and forth a lot,
         it may take a lot of time to book the appointment and someone else may have already
         booked the date that you are interested in by the time that we are finished communicating.
+      </p>
+      <p className={styles.p}>
+        • Review the
+        {' '}
+        <Link as="/pricing" href="/pricing">
+          <a className={`${styles.link} ${styles.underlineHover}`}>pricing terms</a>
+        </Link>
+        , including the non-refundable $100 deposit.
       </p>
       <h3 className={styles.h3}>Design Process</h3>
       <p className={styles.p}>

@@ -19,6 +19,7 @@ const pricing = () => (
       which will be applied toward the price of the tattoo.
       If you need to reschedule, you must give more than 48 hours notice,
       and this deposit will be applied to the new appointment time.
+      If proper notice is not given, your deposit will be forfeited.
       (If multiple sessions are required for the tattoo,
       the deposit will be applied to the last session.)
     </p>
