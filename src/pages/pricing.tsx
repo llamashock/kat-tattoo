@@ -6,7 +6,10 @@ import styles from 'styles/general.module.css';
 const pricing = () => (
   <Layout>
     <h1 className={styles.h1}>Pricing</h1>
-    <p className={styles.p}>Pricing varies depending on the tattoo, bigger or more complex pieces (such as sleeve work) are typically charged hourly at $125 an hour. Smaller pieces are typically priced per piece, which can vary greatly. The minimum price is $100.</p>
+    <p className={styles.p}>
+      Prices vary depending on complexity and size of the tattoo.
+      Pieces will be priced hourly at a rate of $175/hr. The minimum price is $120.
+    </p>
     <p className={styles.p}>
       {'Please '}
       <Link as="/contact" href="/contact">
