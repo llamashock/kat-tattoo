@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Texturina:wght@200&family=Lato:wght@100&display=swap');
 
-/* @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Lato:wght@100&display=swap'); */
-
   .headerRow {
     display: flex;
     flex-direction: row;
@@ -15,15 +13,14 @@
   }
 
   .mainImageContainer {
-    display: flex;
-    flex-direction: row;
-    height: 20rem;
-    justify-content: center;
-    margin-bottom: 2rem;
+    width: 50%;
+    margin: 0 auto;
+    background-color: gray;
+    margin-bottom: 4rem;
   }
 
   .mainImage {
-    height: 100%;
+    height: 30rem;
     max-height: 20rem;
     width: auto;
     object-fit: contain;
@@ -38,9 +35,7 @@
   }
   @media screen and (max-width: 600px) {
     .mainImageContainer {
-      flex-direction: column;
-      align-items: center;
-      height: auto;
+      width: 75%;
     }
 
     .mainImage {
@@ -48,3 +43,8 @@
     }
   }
   
+  @media screen and (max-width: 300px) {
+    .mainImageContainer {
+      width: 90%;
+    }
+  }

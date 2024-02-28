@@ -3,7 +3,8 @@
 }
 
 .font {
-  font-family: 'Comfortaa';
+  /* Tinos is closest to Georgia */
+  font-family: 'Tinos';
   color: black;
 }
 

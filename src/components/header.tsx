@@ -33,7 +33,7 @@ const Header = () => {
     <h2 className={headerStyles.headerRow}>
       <Link href="/">
         <a className={headerStyles.mainTitle}>
-          <img src="/katEnglandTattooLogo.png" alt="Kat England Tattoo" className={headerStyles.mainImage} />
+          KAT ENGLAND TATTOO
         </a>
       </Link>
       <ul className={headerStyles.navList}>
