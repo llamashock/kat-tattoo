@@ -56,7 +56,7 @@ const contact = () => {
         <Link as="/pricing" href="/pricing">
           <a className={`${styles.link} ${styles.underlineHover}`}>pricing terms</a>
         </Link>
-        , including the non-refundable $100 deposit.
+        , including the non-refundable $150 deposit.
       </p>
       <h3 className={styles.h3}>Design Process</h3>
       <p className={styles.p}>

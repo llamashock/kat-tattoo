@@ -18,7 +18,7 @@ const pricing = () => (
       {' to get a quote for your tattoo.'}
     </p>
     <p className={styles.p}>
-      Please note: All appointments require a non-refundable deposit of $100,
+      Please note: All appointments require a non-refundable deposit of $150,
       which will be applied toward the price of the tattoo.
       If you need to reschedule, you must give more than 48 hours notice,
       and this deposit will be applied to the new appointment time.
