@@ -10,6 +10,7 @@
 
 .body {
   margin: 3rem;
+  min-height: calc(100vh - 15rem) !important;
 }
 
 .h1 {

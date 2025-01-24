@@ -2,7 +2,7 @@ import Container from 'components/container';
 import Layout from 'components/layout';
 import Link from 'next/link';
 import React from 'react';
-import { Carousel } from 'react-responsive-carousel';
+// import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 import styles from 'styles/general.module.css';
 import homeStyles from 'styles/index.module.css';
@@ -10,7 +10,11 @@ import homeStyles from 'styles/index.module.css';
 const Index = () => (
   <Layout>
     <Container>
-      <Carousel
+      <div className={homeStyles.mainImageContainer}>
+        <img src="/puffinRaccoon.jpeg" alt="Example tattoos" className={homeStyles.mainImage} />
+      </div>
+
+      {/* <Carousel
         showThumbs={false}
         showArrows
         thumbWidth={100}
@@ -21,7 +25,7 @@ const Index = () => (
         <img src="/badgerLantern.jpeg" alt="Example tattoo badger" className={homeStyles.mainImage} />
         <img src="/frogPipe.jpeg" alt="Example tattoo frog" className={homeStyles.mainImage} />
         <img src="/ladybudgBerries.jpeg" alt="Example tattoo ladybug" className={homeStyles.mainImage} />
-      </Carousel>
+      </Carousel> */}
       <p className={styles.p}>
         Kat is best known for black and grey work, specializing in organic designs like florals,
         and portraits of animals and people.

@@ -13,18 +13,16 @@
   }
 
   .mainImageContainer {
-    width: 50%;
-    margin: 0 auto;
-    background-color: gray;
+    width: 100%;
     margin-bottom: 4rem;
   }
 
   .mainImage {
     height: 30rem;
     max-height: 20rem;
+    margin: 0 auto;
     width: auto;
     object-fit: contain;
-    margin: 0.5rem;
     box-shadow: 20px 20px 20px rgba(124, 124, 124, 0.5);
   }
 
@@ -33,7 +31,7 @@
       display: block;
     }
   }
-  @media screen and (max-width: 600px) {
+  /* @media screen and (max-width: 600px) {
     .mainImageContainer {
       width: 75%;
     }
@@ -47,4 +45,4 @@
     .mainImageContainer {
       width: 90%;
     }
-  }
+  } */
