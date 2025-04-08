@@ -15,13 +15,15 @@
   .mainImageContainer {
     width: 100%;
     margin-bottom: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
   }
 
   .mainImage {
     height: 30rem;
     max-height: 20rem;
-    margin: 0 auto;
-    width: auto;
     object-fit: contain;
     box-shadow: 20px 20px 20px rgba(124, 124, 124, 0.5);
   }
@@ -31,18 +33,13 @@
       display: block;
     }
   }
-  /* @media screen and (max-width: 600px) {
+  @media screen and (max-width: 600px) {
     .mainImageContainer {
-      width: 75%;
+      flex-direction: column;
     }
 
     .mainImage {
-      width: 15rem;
+      margin: 0 auto;
     }
   }
   
-  @media screen and (max-width: 300px) {
-    .mainImageContainer {
-      width: 90%;
-    }
-  } */

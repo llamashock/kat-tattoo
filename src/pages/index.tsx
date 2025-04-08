@@ -11,7 +11,8 @@ const Index = () => (
   <Layout>
     <Container>
       <div className={homeStyles.mainImageContainer}>
-        <img src="/puffinRaccoon.jpeg" alt="Example tattoos" className={homeStyles.mainImage} />
+        <img src="/ratRope.jpeg" alt="Example tattoo" className={homeStyles.mainImage} />
+        <img src="/dogFlowers.jpeg" alt="Example tattoo" className={homeStyles.mainImage} />
       </div>
 
       {/* <Carousel
