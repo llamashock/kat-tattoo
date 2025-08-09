@@ -38,8 +38,8 @@ const Index = () => (
       </p> */}
       <p className={styles.p}>
         {'To schedule an appointment, please read our '}
-        <Link as="/contact" href="/contact">
-          <a className={`${styles.link} ${styles.underlineHover}`}>Policies and Contact Us</a>
+        <Link as="/contact" href="/contact" className={`${styles.link} ${styles.underlineHover}`}>
+          Policies and Contact Us
         </Link>
         {' page. When creating an appointment, we will require'}
         {' a description of the tattoo, the size and placement of the tattoo.'}

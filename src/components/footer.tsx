@@ -9,11 +9,11 @@ const Footer = () => (
       Kat England Tattoo © 2023
     </h3>
     <div className={footerStyles.privacyTermsRow}>
-      <Link as="/privacyTerms" href="/privacyTerms">
-        <a className={`${footerStyles.privacyTerms} ${styles.underlineHover}`}>Privacy Policy</a>
+      <Link as="/privacyTerms" href="/privacyTerms" className={`${footerStyles.privacyTerms} ${styles.underlineHover}`}>
+        Privacy Policy
       </Link>
-      <Link as="/privacyTerms" href="/privacyTerms">
-        <a className={`${footerStyles.privacyTerms} ${styles.underlineHover}`}>Terms of Use</a>
+      <Link as="/privacyTerms" href="/privacyTerms" className={`${footerStyles.privacyTerms} ${styles.underlineHover}`}>
+        Terms of Use
       </Link>
     </div>
   </footer>

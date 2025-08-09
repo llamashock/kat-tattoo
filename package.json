@@ -3,24 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "export NODE_OPTIONS=--openssl-legacy-provider; next build",
+    "build": "next build",
     "dev": "next dev",
     "lint": "eslint . --ext='js,ts,tsx'",
     "stylelint": "stylelint ./src/**/*.css",
     "start": "next start"
   },
   "engines": {
-    "node": "18.x"
+    "node": "22.x"
   },
   "dependencies": {
     "classnames": "2.2.6",
-    "next": "10.2.1",
+    "next": "14.2.31",
     "postcss-preset-env": "^6.7.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "react-responsive-carousel": "^3.2.23",
-    "tailwindcss": "^1.9.6",
-    "typescript": "^4.0.5"
+    "tailwindcss": "^1.9.6"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.10",
@@ -41,6 +40,7 @@
     "stylelint": "^13.13.1",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^22.0.0",
-    "stylelint-order": "^4.1.0"
+    "stylelint-order": "^4.1.0",
+    "typescript": "^5.9.2"
   }
 }

@@ -53,8 +53,8 @@ const contact = () => {
       <p className={styles.p}>
         • Review the
         {' '}
-        <Link as="/pricing" href="/pricing">
-          <a className={`${styles.link} ${styles.underlineHover}`}>pricing terms</a>
+        <Link as="/pricing" href="/pricing" className={`${styles.link} ${styles.underlineHover}`}>
+          pricing terms
         </Link>
         , including the non-refundable $150 deposit.
       </p>

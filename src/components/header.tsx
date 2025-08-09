@@ -22,8 +22,8 @@ const Header = () => {
     const isCurrentPath = router.pathname === page.path;
     return (
       <li key={page.path} className={`${isCurrentPath ? headerStyles.highlightCurrentPage : ''}`}>
-        <Link as={page.path} href={page.path}>
-          <a className={`${styles.underlineHover} ${headerStyles.navItem}`}>{page.name}</a>
+        <Link as={page.path} href={page.path} className={`${styles.underlineHover} ${headerStyles.navItem}`}>
+          {page.name}
         </Link>
       </li>
     );
@@ -31,10 +31,8 @@ const Header = () => {
 
   return (
     <h2 className={headerStyles.headerRow}>
-      <Link href="/">
-        <a className={headerStyles.mainTitle}>
-          KAT ENGLAND TATTOO
-        </a>
+      <Link href="/" className={headerStyles.mainTitle}>
+        KAT ENGLAND TATTOO
       </Link>
       <ul className={headerStyles.navList}>
         {navLinks}

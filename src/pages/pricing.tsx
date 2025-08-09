@@ -12,8 +12,8 @@ const pricing = () => (
     </p>
     <p className={styles.p}>
       {'Please '}
-      <Link as="/contact" href="/contact">
-        <a className={`${styles.link} ${styles.underlineHover}`}>contact us</a>
+      <Link as="/contact" href="/contact" className={`${styles.link} ${styles.underlineHover}`}>
+        contact us
       </Link>
       {' to get a quote for your tattoo.'}
     </p>
