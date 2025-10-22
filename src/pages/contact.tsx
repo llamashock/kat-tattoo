@@ -10,6 +10,32 @@ const contact = () => {
     <Layout>
       <h1 className={styles.h1}>Contact Us</h1>
 
+      <h2 className={styles.h2}>Email</h2>
+
+      {/* Cannot use <MailToLink /> here, it renders as a <p> element only on prod */}
+      <p className={styles.p}>
+        This links to my email with a template to include the following content:
+        {' '}
+        <a href="mailto:tattsbykat@gmail.com?body=Your%20name:%20%0D%0A%0D%0A%20Tattoo%20placement:%20%0D%0A%0D%0A%20Approximate%20size%20of%20tattoo%20(in%20inches):%20%0D%0A%0D%0A%20General%20description%20of%20the%20tattoo:%20%0D%0A%0D%0A%20Attach%20reference%20images%20(I%20draw%20all%20my%20own%20designs,%20these%20are%20for%20understanding%20what%20elements%20you%20like%20from%20the%20references):" className={styles.link}>tattsbykat@gmail.com</a>
+      </p>
+      <p className={styles.p}>
+        • A short description of the tattoo that you would like.
+        Keeping this brief is important, as too many extra details
+        makes it hard to find the key elements.
+        For example, the backstory of the tattoo might be important
+        but unless it is part of the tattoo it can make the description
+        more ambiguous.
+      </p>
+      <p className={styles.p}>
+        • A few reference images. I just use these as a starting point,
+        to see the key elements that you like.
+        I like to add my own flair to my tattoos and I will not copy
+        {' another artist\'s work. If you would like an exact replica of a '}
+        tattoo or drawing, I am not the artist for you.
+      </p>
+      <p className={styles.p}>• The size that you want the tattoo to be.</p>
+      <p className={styles.p}>• Where you want to get the tattoo.</p>
+
       <h2 className={styles.h2}>Location</h2>
 
       <p className={styles.p}>
@@ -144,37 +170,14 @@ const contact = () => {
       </p>
 
       {/* FAQ-type checkbox dropdown element here to reveal email */}
-      <button className={faqStyles.buttonCollapseExpand} onClick={() => setShowAnswer(!showAnswer)} type="button">
+      {/* <button className={faqStyles.buttonCollapseExpand} onClick={() => setShowAnswer(!showAnswer)} type="button">
         <p className={faqStyles.expandIcon}>{showAnswer ? '☑︎' : '☐'}</p>
         <p className={faqStyles.question}>
           Click here to agree to these terms, and view my contact email below.
         </p>
-      </button>
+      </button> */}
       <div className={`${showAnswer ? faqStyles.showAnswer : faqStyles.hideAnswer}`}>
-        <h2 className={styles.h2}>Email</h2>
-        {/* Cannot use <MailToLink /> here for some reason, it renders as a <p> element only on prod */}
-        <p className={styles.p}>
-          This links to my email with a template to include the following content:
-          {' '}
-          <a href="mailto:tattsbykat@gmail.com?body=Your%20name:%20%0D%0A%0D%0A%20Tattoo%20placement:%20%0D%0A%0D%0A%20Approximate%20size%20of%20tattoo%20(in%20inches):%20%0D%0A%0D%0A%20General%20description%20of%20the%20tattoo:%20%0D%0A%0D%0A%20Attach%20reference%20images%20(I%20draw%20all%20my%20own%20designs,%20these%20are%20for%20understanding%20what%20elements%20you%20like%20from%20the%20references):" className={styles.link}>tattsbykat@gmail.com</a>
-        </p>
-        <p className={styles.p}>
-          • A short description of the tattoo that you would like.
-          Keeping this brief is important, as too many extra details
-          makes it hard to find the key elements.
-          For example, the backstory of the tattoo might be important
-          but unless it is part of the tattoo it can make the description
-          more ambiguous.
-        </p>
-        <p className={styles.p}>
-          • A few reference images. I just use these as a starting point,
-          to see the key elements that you like.
-          I like to add my own flair to my tattoos and I will not copy
-          {' another artist\'s work. If you would like an exact replica of a '}
-          tattoo or drawing, I am not the artist for you.
-        </p>
-        <p className={styles.p}>• The size that you want the tattoo to be.</p>
-        <p className={styles.p}>• Where you want to get the tattoo.</p>
+        {/* email content here during busy season */}
       </div>
     </Layout>
   );
