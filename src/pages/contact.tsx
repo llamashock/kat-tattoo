@@ -14,7 +14,7 @@ const contact = () => {
 
       {/* Cannot use <MailToLink /> here, it renders as a <p> element only on prod */}
       <p className={styles.p}>
-        This links to my email with a template to include the following content:
+        To request an appointment, please click the email link:
         {' '}
         <a href="mailto:tattsbykat@gmail.com?body=Your%20name:%20%0D%0A%0D%0A%20Tattoo%20placement:%20%0D%0A%0D%0A%20Approximate%20size%20of%20tattoo%20(in%20inches):%20%0D%0A%0D%0A%20General%20description%20of%20the%20tattoo:%20%0D%0A%0D%0A%20Attach%20reference%20images%20(I%20draw%20all%20my%20own%20designs,%20these%20are%20for%20understanding%20what%20elements%20you%20like%20from%20the%20references):" className={styles.link}>tattsbykat@gmail.com</a>
       </p>
